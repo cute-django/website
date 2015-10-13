@@ -99,6 +99,11 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  text-align:center;
+}
+
+header h1 {
+  margin-bottom:5px;
 }
 
 header ul {
@@ -229,6 +234,7 @@ footer {
 
   header ul, header p.view {
     position:static;
+    margin:0 auto 10px;
   }
 
   pre, code {
